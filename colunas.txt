@@ -1,0 +1,57 @@
+1. Event: Nome ou identificação do evento/etapa.
+
+2. Class: A classe (ou categoria) da competição.
+
+3. Drw (Draw): O número de sorteio ou a ordem de entrada do competidor no evento. Em muitos campeonatos,
+ essa coluna indica a posição sorteada em que o competidor/humano+animal vai correr.
+
+4. Ord (Order): Também indica uma forma de ordem de largada ou sequência, possivelmente interna daquela “Class”.
+ Pode ser redundante em relação a “Draw” ou ter alguma diferença no modo como o organizador catalogou as passadas.
+
+5. Horse: O nome do cavalo (ou animal) que realizou a passada.
+
+6. Competitior (Competitor): O nome do(a) competidor(a), ou seja, o(a) cavaleiro(a)/amazonas.
+
+7. S1, T1, S2, T2, S3, T3: Essas colunas normalmente representam divisões do tempo durante o percurso,
+ dividindo o trajeto em “Split” (S) e “Turn” (T), ou seja:
+S1: Tempo do Start até aproximar o 1º tambor.
+T1: Tempo específico de contorno ou “virada” no 1º tambor.
+S2: Tempo de deslocamento do 1º para o 2º tambor.
+T2: Tempo da virada no 2º tambor.
+S3: Tempo de deslocamento do 2º para o 3º tambor.
+T3: Tempo da virada no 3º tambor.
+
+8. FS, NS, DQ:
+FS: Pode ser “Final Straight” (a reta final) ou alguma métrica de velocidade final. Nem sempre preenchida.
+NS: Provavelmente “No Score” (sem pontuação) ou “No Show” (não compareceu). Normalmente fica vazio quando não se aplica.
+DQ: “Disqualified” (desclassificado). Caso o competidor tenha sido desclassificado por alguma infração (derrubar tambor, entrar errado,
+ etc.).
+
+9. B1, B2, B3:
+Podem ser campos de penalidade ou “Barrel Penalty” para cada tambor (por ex., B1=5 se derrubou o primeiro tambor).
+ Às vezes ficam em branco caso não haja penalidade.
+
+10. Total
+O tempo total oficial da passada,
+ geralmente a soma de todas as parciais (S1 + T1 + S2 + T2 + S3 + T3) + eventuais penalizações (5 segundos por tambor derrubado, etc.).
+É a métrica principal para definir o ranking.
+
+11. Placing
+A colocação final do competidor naquela classe/prova.
+Exemplo: “1” = primeiro lugar, “2” = segundo lugar, etc.
+
+12. D e PosD
+Estas colunas parecem relacionadas ao “sistema de divisões” (1D, 2D, 3D, etc.).
+
+D: pode simplesmente apontar qual “D” a pessoa correu (1D, 2D, 3D...).
+PosD: a posição específica dentro daquela divisão (“2º 1D”, “3º 2D”, etc.).
+
+13. Division
+Campo mais descritivo sobre a divisão em que o competidor se encontra, como “1D”, “2D”, “3D”, ou até “9º 1D” (em alguns casos).
+
+14. sts1, sts2, sts3, st1, st2, st3
+Essas colunas extras podem ser variantes ou cálculos complementares dos splits de tempo. Cada organizador pode usar uma convenção diferente:
+
+“sts1”/“sts2”/“sts3” podem indicar “split time start” (exemplo: do início até o final do 1º tambor, 2º tambor, etc.).
+“st1”/“st2”/“st3” podem ser subsplits ou parciais acumuladas.
+Às vezes, essas colunas são cálculos do “trecho” entre tambores: “sts1” = Start -> 1º tambor, “sts2” = 1º -> 2º tambor, etc.
